@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(gold 0%, yellow 40%, rgb(174, 174, 18) 100%);
+}
+h1{
+    color: rgb(132, 0, 0);
+    
+}
+#showSkech{
+    float: right;
+    margin: 10px;
+}
+
+p{
+    padding: 5px;
+    font-size: 20px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name:A1 ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes A1{
+    from{box-shadow: 1px 1px 38px orangered;}
+    to{box-shadow: 1px 1px 38px orange;}
+}
